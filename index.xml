@@ -6,5 +6,12 @@
         <source>https://github.com/GwenTerroir/RIPO_Scripts/raw/797fad0962658e476cf6db61b9cb26bd1c464f4b/RIPO_Safecopy.lua</source>
       </version>
     </reapack>
+
+    <reapack name="RIPO_Convert Selected Mono Tracks To One Multichannel Track.lua" type="script">
+      <version name="1.0.0">
+        <source>https://github.com/GwenTerroir/RIPO_Scripts/raw/797fad0962658e476cf6db61b9cb26bd1c464f4b/RIPO_Convert%20Selected%20Mono%20Tracks%20To%20One%20Multichannel%20Track.lua</source>
+      </version>
+    </reapack>
+
   </category>
 </index>
