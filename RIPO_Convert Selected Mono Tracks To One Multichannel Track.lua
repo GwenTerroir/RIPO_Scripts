@@ -1,15 +1,15 @@
 --[[
  * ReaScript Name: RIPO Convert Selected Mono Tracks To One Multichannel Track
  * Author: RIPO
- * Author URL: 
- * Repository: 
+ * Author URL: https://linktr.ee/antonoterroir
+ * Repository: https://github.com/GwenTerroir/RIPO_Scripts/raw/master/index.xml
  * Licence: GPL v3
  * Version: 1.0
 --]]
 
 --[[
  * Changelog
- * v1.0 (2023-02-21)
+ * v1.0 (2023-07-18)
   + Initial release
 --]]
 
@@ -357,7 +357,7 @@ function MergeItemsAndGlueStereo(itmL, itmR)
   
   
   
-  --- TAKEN FROM MPL SCRIP ---------
+  -- TAKEN FROM Script: mpl_Implode mono track session to stereo items relative to LR at the trackname end.lua
   
   
   reaper.SetMediaItemTake_Source(takeR, srcR)
@@ -376,14 +376,16 @@ function MergeItemsAndGlueStereo(itmL, itmR)
   
   reaper.SetMediaItemInfo_Value(itmL, 'D_VOL', 1)
   
-  -- add check for FX and env
-  
-  -- TAKEN FROM XRAYM Expand selected items length to start and end of their source
+  -- TAKEN FROM Script: X-Raym_Expand selected items length to start and end of their source.eel
+
+
   reaper.SetMediaItemPosition(itmL, trItmsPos[0][itmL] - trItmsStartOffs[0][itmL], true)
   reaper.SetMediaItemLength(itmL, trItmsLength[0][itmL] + trItmsStartOffs[0][itmL], true)
   reaper.SetMediaItemTakeInfo_Value(takeL, 'D_STARTOFFS', 0)
   reaper.SetMediaItemTakeInfo_Value(takeR, 'D_STARTOFFS', 0)
   
+  ------------------------- 
+
   --Item: Unselect (clear selection of) all items
   reaper.Main_OnCommand(40289, 0);
   

@@ -1,15 +1,15 @@
 --[[
  * ReaScript Name: RIPO Safecopy
  * Author: RIPO
- * Author URL: 
- * Repository: 
+ * Author URL: https://linktr.ee/antonoterroir
+ * Repository: https://github.com/GwenTerroir/RIPO_Scripts/raw/master/index.xml
  * Licence: GPL v3
  * Version: 1.0
 --]]
 
 --[[
  * Changelog
- * v1.0 (2023-02-21)
+ * v1.0 (2023-07-18)
   + Initial release
 --]]
 
@@ -184,7 +184,6 @@ function Run()
   reaper.ImGui_PushFont(ctx, font)
   
   reaper.ImGui_SetNextWindowSize(ctx, 400, 320, reaper.ImGui_Cond_Appearing())
-  --reaper.ImGui_SetNextWindowSize(ctx, 400, 320)
   
   if set_dock_id then
     reaper.ImGui_SetNextWindowDockID(ctx, set_dock_id)
