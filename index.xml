@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="RIPO Scripts">
   <category name="MainFunctions">
-    <reapack name="RIPO_Safecopy.lua" type="script">
+    <reapack name="RIPO_Safecopy.lua" type="script" desc="RIPO Safecopy">
       <version name="1.0.0" author="RIPO" time="2023-07-18T23:30:32Z">
         <source>https://github.com/GwenTerroir/RIPO_Scripts/raw/797fad0962658e476cf6db61b9cb26bd1c464f4b/RIPO_Safecopy.lua</source>
       </version>
     </reapack>
 
-    <reapack name="RIPO_Convert Selected Mono Tracks To One Multichannel Track.lua" type="script">
+    <reapack name="RIPO_Convert Selected Mono Tracks To One Multichannel Track.lua" type="script" desc="RIPO Convert Selected Mono Tracks To One Multichannel Track">
       <version name="1.0.0" author="RIPO" time="2023-07-18T23:30:32Z">
         <source>https://github.com/GwenTerroir/RIPO_Scripts/raw/797fad0962658e476cf6db61b9cb26bd1c464f4b/RIPO_Convert%20Selected%20Mono%20Tracks%20To%20One%20Multichannel%20Track.lua</source>
       </version>
