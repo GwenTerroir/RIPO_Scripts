@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index version="1" name="RIPO Scripts">
+  <category name="MainFunctions">
+    <reapack name="RIPO_Safecopy.lua" type="script">
+      <version name="1.0.0">
+        <source>https://github.com/GwenTerroir/RIPO_Scripts/raw/797fad0962658e476cf6db61b9cb26bd1c464f4b/RIPO_Safecopy.lua</source>
+      </version>
+    </reapack>
+  </category>
+</index>
